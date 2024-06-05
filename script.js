@@ -3,7 +3,7 @@ let weatherData = null;
 
 async function weatherInformation(place) {
     const apiKey = "9bd88715fbd045d69ad132337242205";
-    let apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${place}&aqi=no`;
+    let apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${place}&aqi=no`;
     try {
         let response = await fetch(apiUrl);
         if (!response.ok) {
