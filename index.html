@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div>
+                <img src="images/logo.png" alt="Weather" class="logo">
+            </div>
+
+            <div>
+                <form action="">
+                    <input type="text" placeholder="Enter City" required id="enterCity">
+
+                    <input type="button" value="Search" id="submitCity">
+                </form>
+            </div>
+
+            <div>
+                <button id="temperatureToggle">F</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="diffSection top">
+                <h1 class="place"></h1>
+                <h2 class="country"></h2>
+                <h2 class="date"></h2>
+            </section>
+            <section class="diffSection">
+                <img src="" alt="" class="condition-img">
+                <h1 class="condition-text"></h1>
+            </section>
+            <section class="diffSection">
+                <h1 class="temperature"></h1>
+            </section>         
+        </main>
+
+        <footer class="footer">
+            <h3>Created by <a href="https://github.com/abhi6777">Abhimanyu</a></h3>
+            <a href="https://twitter.com/Abhimanyu_codes"><img src="images/twitter.png" alt="Twitter"></a>
+               <a href="https://github.com/abhi6777"><img src="images/github.png" alt="Github"></a>
+               <a href="https://www.linkedin.com/in/abhimanyu-mahto-3a316a233/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

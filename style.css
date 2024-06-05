@@ -1,0 +1,135 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ html, body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     display: flex;
+     flex-direction: column;
+     /* background-color: rgb(34, 34, 32); */
+     /* color: aliceblue; */
+     font-family: Arial, sans-serif;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+ }
+ 
+ .header .logo {
+     height: 70px;
+     width: 70px;
+     border-radius: 7px;
+ }
+ 
+ .header {
+     background-color: rgb(169, 168, 168);
+     padding: 10px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ #temperatureToggle {
+     height: 50px;
+     width: 50px;
+     font-weight: bolder;
+     font-size: 25px;
+     border-radius: 10px;
+     cursor: pointer;
+ }
+ 
+ form input {
+     margin: 0;
+     padding: 10px;
+ }
+ 
+ form {
+     display: flex;
+ }
+ 
+ #enterCity {
+     border-radius: 20px 0px 0px 20px;
+     cursor: pointer;
+     border: 1px solid #ccc;
+ }
+ 
+ #submitCity {
+     border-radius: 0px 20px 20px 0px;
+     cursor: pointer;
+     background-color: rgb(48, 100, 150);
+     font-size: 15px;
+     font-weight: bold;
+     border: none;
+     color: white;
+ }
+ 
+ main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     flex: 1;
+     margin: 20px;
+ }
+ 
+ .diffSection {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .top {
+     flex-direction: column;
+ }
+ 
+ .place {
+     margin: 20px;
+     font-size: 4rem;
+     /* color: rgb(3, 83, 43); */
+ }
+ 
+ .country {
+     font-size: 4rem;
+     color: red;
+ }
+ 
+ .date {
+     margin: 20px;
+     font-size: 2rem;
+ }
+ 
+ .condition-img {
+     display: inline;
+     height: 7rem;
+     width: 7rem;
+ }
+ 
+ .condition-text {
+     font-size: 3rem;
+ }
+ 
+ .temperature {
+     font-size: 5rem;
+ }
+ 
+ .footer {
+     text-align: center;
+     padding: 25px;
+     background-color: #b4b1b1;
+ }
+ 
+ footer img{
+     height: 30px;
+     width: 30px;
+     margin-top: 10px;
+     margin-left: 3px;
+}
